@@ -20,7 +20,7 @@ class Simulation:
         self.current_infected = [] # The permanent storage for the Person objects infected in total
 
         self.time_step_counter = 0
-        self.next_person_id = 0 # The counter for interating over possible Person id's. 
+        self.next_person_id = 0 # The counter for interating over possible Person id's.
         self.total_infected = 0 # The total number of infected Persons.
         self.total_dead = 0 # Int
 
