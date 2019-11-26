@@ -13,6 +13,10 @@
 		773DA944238CB9D0009333A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773DA942238CB9D0009333A0 /* Main.storyboard */; };
 		773DA946238CB9D1009333A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773DA945238CB9D1009333A0 /* Assets.xcassets */; };
 		773DA949238CB9D1009333A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773DA947238CB9D1009333A0 /* LaunchScreen.storyboard */; };
+		773DA951238CC10A009333A0 /* customeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773DA950238CC10A009333A0 /* customeCell.swift */; };
+		773DA958238CDC5F009333A0 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773DA957238CDC5F009333A0 /* DetailVC.swift */; };
+		773DA95C238CF144009333A0 /* skalenton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773DA95B238CF144009333A0 /* skalenton.swift */; };
+		773DA95E238CF1DB009333A0 /* SetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773DA95D238CF1DB009333A0 /* SetData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		773DA945238CB9D1009333A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		773DA948238CB9D1009333A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		773DA94A238CB9D1009333A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773DA950238CC10A009333A0 /* customeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customeCell.swift; sourceTree = "<group>"; };
+		773DA957238CDC5F009333A0 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		773DA95B238CF144009333A0 /* skalenton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skalenton.swift; sourceTree = "<group>"; };
+		773DA95D238CF1DB009333A0 /* SetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,41 @@
 			children = (
 				773DA93C238CB9D0009333A0 /* AppDelegate.swift */,
 				773DA93E238CB9D0009333A0 /* SceneDelegate.swift */,
-				773DA940238CB9D0009333A0 /* ViewController.swift */,
-				773DA942238CB9D0009333A0 /* Main.storyboard */,
+				773DA954238CC20E009333A0 /* Model */,
+				773DA952238CC1ED009333A0 /* View */,
+				773DA953238CC1F4009333A0 /* Controller */,
 				773DA945238CB9D1009333A0 /* Assets.xcassets */,
 				773DA947238CB9D1009333A0 /* LaunchScreen.storyboard */,
 				773DA94A238CB9D1009333A0 /* Info.plist */,
 			);
 			path = "UnKnown Project";
+			sourceTree = "<group>";
+		};
+		773DA952238CC1ED009333A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				773DA942238CB9D0009333A0 /* Main.storyboard */,
+				773DA950238CC10A009333A0 /* customeCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		773DA953238CC1F4009333A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				773DA940238CB9D0009333A0 /* ViewController.swift */,
+				773DA957238CDC5F009333A0 /* DetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		773DA954238CC20E009333A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				773DA95B238CF144009333A0 /* skalenton.swift */,
+				773DA95D238CF1DB009333A0 /* SetData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773DA958238CDC5F009333A0 /* DetailVC.swift in Sources */,
+				773DA95C238CF144009333A0 /* skalenton.swift in Sources */,
+				773DA951238CC10A009333A0 /* customeCell.swift in Sources */,
 				773DA941238CB9D0009333A0 /* ViewController.swift in Sources */,
 				773DA93D238CB9D0009333A0 /* AppDelegate.swift in Sources */,
+				773DA95E238CF1DB009333A0 /* SetData.swift in Sources */,
 				773DA93F238CB9D0009333A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
