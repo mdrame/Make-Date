@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XpO-au-533">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="XpO-au-533">
                                 <rect key="frame" x="0.0" y="197" width="414" height="699"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
@@ -26,15 +26,11 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="89"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="7A3-p5-yyS">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="89"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="415" id="gUs-TL-KxF"/>
-                                                        <constraint firstAttribute="height" constant="137" id="j19-JC-8VP"/>
-                                                    </constraints>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="7A3-p5-yyS">
+                                                    <rect key="frame" x="0.0" y="4" width="414" height="84"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyB-aH-Lge">
-                                                    <rect key="frame" x="49" y="18" width="316" height="53"/>
+                                                    <rect key="frame" x="49" y="18" width="317" height="53"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="101" id="KXI-Qz-PMB"/>
                                                         <constraint firstAttribute="width" constant="317" id="W3o-jX-6K3"/>
@@ -46,13 +42,12 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="MyB-aH-Lge" firstAttribute="centerY" secondItem="uqG-Y9-5eW" secondAttribute="centerY" id="1nm-eR-jgW"/>
-                                                <constraint firstItem="7A3-p5-yyS" firstAttribute="top" secondItem="uqG-Y9-5eW" secondAttribute="topMargin" constant="-11" id="4jU-m8-aMW"/>
-                                                <constraint firstItem="7A3-p5-yyS" firstAttribute="centerY" secondItem="MyB-aH-Lge" secondAttribute="centerY" id="Uio-bT-Ft3"/>
-                                                <constraint firstItem="7A3-p5-yyS" firstAttribute="centerX" secondItem="MyB-aH-Lge" secondAttribute="centerX" id="Vv0-YT-37n"/>
-                                                <constraint firstItem="7A3-p5-yyS" firstAttribute="centerX" secondItem="uqG-Y9-5eW" secondAttribute="centerX" id="fAe-ch-htd"/>
+                                                <constraint firstItem="7A3-p5-yyS" firstAttribute="centerX" secondItem="MyB-aH-Lge" secondAttribute="centerX" id="fAe-kW-LVu"/>
+                                                <constraint firstItem="7A3-p5-yyS" firstAttribute="top" secondItem="uqG-Y9-5eW" secondAttribute="topMargin" constant="-7" id="lDd-xl-UJD"/>
                                                 <constraint firstItem="MyB-aH-Lge" firstAttribute="leading" secondItem="uqG-Y9-5eW" secondAttribute="leadingMargin" constant="29" id="onP-pC-XBb"/>
-                                                <constraint firstItem="7A3-p5-yyS" firstAttribute="leading" secondItem="uqG-Y9-5eW" secondAttribute="leadingMargin" constant="-20" id="qaM-0n-lEW"/>
+                                                <constraint firstItem="7A3-p5-yyS" firstAttribute="leading" secondItem="uqG-Y9-5eW" secondAttribute="leadingMargin" constant="-20" id="pec-8q-wAm"/>
                                                 <constraint firstItem="MyB-aH-Lge" firstAttribute="top" secondItem="uqG-Y9-5eW" secondAttribute="topMargin" constant="7" id="sun-gz-Mz7"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="7A3-p5-yyS" secondAttribute="bottom" constant="-10" id="ufA-ak-N6u"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

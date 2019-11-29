@@ -18,13 +18,15 @@ class customeCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        func updateUI() {
-            
-         }
-        
         
     }
     
+    
+    func updateUI(data: Skalenton) {
+        self.foodImage.image = UIImage(named: data.food)
+        self.foodName.text = data.name
+   
+    }
     
 
 }

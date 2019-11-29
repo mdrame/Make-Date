@@ -14,12 +14,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return SetData.instance.getData().count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        return cell
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)  as? customeCell {
+            
+            let data = SetData.instance.getData()[indexPath.row]
+            cell.updateUI(data: data)
+            return cell
+        } else {
+            return customeCell()
+        }
     }
     
     

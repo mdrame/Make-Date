@@ -10,9 +10,15 @@ import Foundation
 
 class SetData {
     
-    static var dataArray = [Skalenton(name: "Drinks", foodImage: "food.jpeg"),
-                            Skalenton(name: "Soda", foodImage: "soda.jpeg"),]
+    static let instance =  SetData()
     
+    private let  dataArray = [Skalenton(name: "Drinks", food: "food.jpeg"),
+                            Skalenton(name: "Soda", food: "soda.jpeg"),]
+    
+    func getData() -> [Skalenton]{
+        
+        return dataArray
+    }
     
     
     
