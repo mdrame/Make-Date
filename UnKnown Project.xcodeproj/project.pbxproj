@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7701B3872391E1D800C40BF2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7701B3862391E1D800C40BF2 /* CollectionViewCell.swift */; };
 		773DA93D238CB9D0009333A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773DA93C238CB9D0009333A0 /* AppDelegate.swift */; };
 		773DA93F238CB9D0009333A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773DA93E238CB9D0009333A0 /* SceneDelegate.swift */; };
 		773DA941238CB9D0009333A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 773DA940238CB9D0009333A0 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7701B3862391E1D800C40BF2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		773DA939238CB9D0009333A0 /* UnKnown Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UnKnown Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		773DA93C238CB9D0009333A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		773DA93E238CB9D0009333A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				773DA942238CB9D0009333A0 /* Main.storyboard */,
 				773DA950238CC10A009333A0 /* customeCell.swift */,
+				7701B3862391E1D800C40BF2 /* CollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			files = (
 				773DA958238CDC5F009333A0 /* DetailVC.swift in Sources */,
 				773DA95C238CF144009333A0 /* skalenton.swift in Sources */,
+				7701B3872391E1D800C40BF2 /* CollectionViewCell.swift in Sources */,
 				773DA951238CC10A009333A0 /* customeCell.swift in Sources */,
 				773DA941238CB9D0009333A0 /* ViewController.swift in Sources */,
 				773DA93D238CB9D0009333A0 /* AppDelegate.swift in Sources */,

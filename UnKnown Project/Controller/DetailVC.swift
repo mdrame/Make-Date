@@ -10,15 +10,16 @@ import UIKit
 
 class DetailVC: UIViewController {
     
-    @IBOutlet weak var imageOutlet: UIImageView!
     
-    @IBOutlet weak var nameOutlet: UILabel!
+    @IBOutlet weak var collectionView: UICollectionView!
     
-    var name: String?
+    
+ 
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        nameOutlet.text = "\(name!)"
+        
+      
 
         // Do any additional setup after loading the view.
     }

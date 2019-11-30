@@ -28,6 +28,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         }
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // perform Segue to next vc
+        performSegue(withIdentifier: "toSecond", sender: self)
+    }
+    
+    
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//      if segue.identifier == "toSecond" {
+//            if let destinationVC = segue.destination as? DetailVC {
+//               // send
+//            }
+//        }
+//
+//
     
     
 
@@ -43,13 +58,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     // Do this with prepare for segue
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//      if segue.identifier == "toSecond" {
-//            if let destinationVC = segue.destination as? DetailVC {
-//                destinationVC.name = string
-//            }
-//        }
-//
 //
 //}
     
