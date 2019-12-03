@@ -13,7 +13,7 @@ class SignUp: UIViewController {
     
     
     // IBOutlets
-      @IBOutlet weak var signInOulet: signInSingOutCustomTextField!
+      @IBOutlet weak var signInOulet: signInTextField!
       
       
       

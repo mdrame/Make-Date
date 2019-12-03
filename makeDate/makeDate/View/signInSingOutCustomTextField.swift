@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class signInSingOutCustomTextField: UITextField {
+class signInTextField: UITextField {
 
     
     override init(frame: CGRect) {
@@ -43,11 +43,12 @@ class signInSingOutCustomTextField: UITextField {
             layer.borderColor = #colorLiteral(red: 0.9005773118, green: 0.8936567962, blue: 0.9392406088, alpha: 1)
         }
     
+    
         
     private func textFieldProperties() {
             
         backgroundColor = #colorLiteral(red: 0.1279791296, green: 0.1371493936, blue: 0.163038969, alpha: 1)
-        let placeHolder = NSAttributedString(string: "User Name", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
+        let placeHolder = NSAttributedString(string: " " + " User ", attributes: [NSAttributedString.Key.foregroundColor: UIColor.gray])
        attributedPlaceholder = placeHolder
        
         

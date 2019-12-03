@@ -20,7 +20,6 @@ class customeSignInSignOutButton: UIButton {
         // Story board Button property call
         
         buttonLayOutProperty()
-        buttonProperties()
         
         
     }
@@ -28,24 +27,17 @@ class customeSignInSignOutButton: UIButton {
     
     private func buttonLayOutProperty() {
         
-        // Layout On standby
-        
-//       layer.shadowColor = #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)
-//       layer.shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: 12.0).cgPath
-//       layer.shadowOffset = CGSize(width: 2.0, height: 2.0)
-//       layer.shadowOpacity = 1.0
-//       layer.shadowRadius = 6
-//       layer.masksToBounds = true
-//       clipsToBounds = false
-        
-        layer.cornerRadius = 20
+       layer.shadowColor = #colorLiteral(red: 0.9529411793, green: 0.6862745285, blue: 0.1333333403, alpha: 1)
+       layer.shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: 12.0).cgPath
+       layer.shadowOffset = CGSize(width: 2.0, height: 2.0)
+       layer.shadowOpacity = 1.0
+       layer.shadowRadius = 2
+       layer.masksToBounds = true
+       clipsToBounds = false
         
     }
     
     private func buttonProperties() {
-        backgroundColor = #colorLiteral(red: 0.9958390594, green: 0.8302667737, blue: 0.1770691574, alpha: 1)
-        setTitle("SignIn", for: .normal)
-        setTitleColor(#colorLiteral(red: 0.1279791296, green: 0.1371493936, blue: 0.163038969, alpha: 1), for: .normal)
         
         
     }

@@ -15,7 +15,7 @@
 		77E6AB4C239690B400FCD4E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E6AB4A239690B400FCD4E1 /* LaunchScreen.storyboard */; };
 		77E6AB572396940A00FCD4E1 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6AB562396940A00FCD4E1 /* SignUp.swift */; };
 		77E6AB59239694E400FCD4E1 /* customeSignInSignOutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6AB58239694E400FCD4E1 /* customeSignInSignOutButton.swift */; };
-		77E6AB5B2396993400FCD4E1 /* signInSingOutCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6AB5A2396993400FCD4E1 /* signInSingOutCustomTextField.swift */; };
+		77E6AB5B2396993400FCD4E1 /* signInTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6AB5A2396993400FCD4E1 /* signInTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		77E6AB4D239690B400FCD4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77E6AB562396940A00FCD4E1 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		77E6AB58239694E400FCD4E1 /* customeSignInSignOutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customeSignInSignOutButton.swift; sourceTree = "<group>"; };
-		77E6AB5A2396993400FCD4E1 /* signInSingOutCustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInSingOutCustomTextField.swift; sourceTree = "<group>"; };
+		77E6AB5A2396993400FCD4E1 /* signInTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			children = (
 				77E6AB45239690B300FCD4E1 /* Main.storyboard */,
 				77E6AB58239694E400FCD4E1 /* customeSignInSignOutButton.swift */,
-				77E6AB5A2396993400FCD4E1 /* signInSingOutCustomTextField.swift */,
+				77E6AB5A2396993400FCD4E1 /* signInTextField.swift */,
 				77E6AB48239690B400FCD4E1 /* Assets.xcassets */,
 			);
 			path = View;
@@ -173,7 +173,7 @@
 			files = (
 				77E6AB44239690B300FCD4E1 /* signIn.swift in Sources */,
 				77E6AB59239694E400FCD4E1 /* customeSignInSignOutButton.swift in Sources */,
-				77E6AB5B2396993400FCD4E1 /* signInSingOutCustomTextField.swift in Sources */,
+				77E6AB5B2396993400FCD4E1 /* signInTextField.swift in Sources */,
 				77E6AB572396940A00FCD4E1 /* SignUp.swift in Sources */,
 				77E6AB40239690B300FCD4E1 /* AppDelegate.swift in Sources */,
 				77E6AB42239690B300FCD4E1 /* SceneDelegate.swift in Sources */,
