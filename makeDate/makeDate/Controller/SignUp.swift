@@ -9,6 +9,22 @@
 import UIKit
 
 class SignUp: UIViewController {
+    
+    
+    
+    // IBOutlets
+      @IBOutlet weak var signInOulet: signInSingOutCustomTextField!
+      
+      
+      
+      
+      // IBAction
+      @IBAction func signInPressed(_ sender: customeSignInSignOutButton) {
+          print("Sign In")
+      }
+      
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

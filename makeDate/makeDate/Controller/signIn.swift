@@ -12,6 +12,7 @@ class signIn: UIViewController {
     
     
     // IBOutlets
+    @IBOutlet weak var textField: signInSingOutCustomTextField!
     @IBOutlet weak var signInOulet: customeSignInSignOutButton!
     
     
