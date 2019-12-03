@@ -1,25 +1,17 @@
 //
-//  DetailVC.swift
-//  UnKnown Project
+//  SignUp.swift
+//  makeDate
 //
-//  Created by Mohammed Drame on 11/25/19.
+//  Created by Mohammed Drame on 12/3/19.
 //  Copyright © 2019 Mo Drame. All rights reserved.
 //
 
 import UIKit
 
-class DetailVC: UIViewController {
-    
-    
-    @IBOutlet weak var collectionView: UICollectionView!
-    
-    
- 
+class SignUp: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-      
 
         // Do any additional setup after loading the view.
     }
