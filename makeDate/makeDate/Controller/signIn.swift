@@ -8,33 +8,19 @@
 
 import UIKit
 
-class signIn: UIViewController {
+class viewController: UIViewController {
+    
+ 
     
     
-    // IBOutlets
-    @IBOutlet weak var signInUserName: signInTextField!
-    @IBOutlet weak var signInPassWord: signInTextField!
-    
-
-    @IBOutlet weak var signInOulet: customeSignInSignOutButton!
-    
-    
-    
-    
-    // IBAction
-    @IBAction func signInPressed(_ sender: customeSignInSignOutButton) {
-        print("Sign In")
-    }
-    
-    
-    
-    
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+
+        
     }
+    
 
 
 }
