@@ -35,8 +35,8 @@ class LoginPageTextFields: UITextField {
         
         // border
         layer.borderWidth = 2
-        layer.borderColor = #colorLiteral(red: 0.08545988935, green: 0.09140480133, blue: 0.09901730609, alpha: 1)
-        layer.cornerRadius = 9
+        layer.borderColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.3008637764)
+        layer.cornerRadius = 5
         
         // shadow
         layer.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
