@@ -38,6 +38,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Save initial value before hiding outlets under thumb button
         thumbPress.setInitValues(login: loginButtonOutlet, register: registerButtonOutlet, thumb: thumButtonOutlet)
+        
+      
+        
   
     }
     
@@ -76,8 +79,9 @@ class ViewController: UIViewController {
         switch buttonPress {
         case true: // if button is on do this unhide the log in and log out button
             thumbPress.unSetLoginRegisterUnderThumbButton(firstView: loginButtonOutlet, secondView: registerButtonOutlet, centerValue: thumButtonOutlet)
-                // unhided when button are visible
-          
+                // add buttons animation when thumnb is press
+             loginButtonOutlet.heartBeatAnimation()
+             registerButtonOutlet.heartBeatAnimation()
             print("Button Pressed")
         default: // vice versas
             thumbPress.setLoginRegisterUnderThumbButton(firstView: loginButtonOutlet, secondView:registerButtonOutlet, centerValue: thumButtonOutlet)

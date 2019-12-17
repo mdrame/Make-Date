@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7700416C23A8762200A02059 /* gif copy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7700416B23A8762200A02059 /* gif copy.gif */; };
 		7700416F23A87E6900A02059 /* ThumPreess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7700416E23A87E6900A02059 /* ThumPreess.swift */; };
+		7700417223A990AA00A02059 /* HeartAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7700417123A990AA00A02059 /* HeartAnimation.swift */; };
+		7700417523A9989100A02059 /* logInOutAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7700417423A9989100A02059 /* logInOutAnimation.swift */; };
 		77E6AB40239690B300FCD4E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6AB3F239690B300FCD4E1 /* AppDelegate.swift */; };
 		77E6AB42239690B300FCD4E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E6AB41239690B300FCD4E1 /* SceneDelegate.swift */; };
 		77E6AB47239690B300FCD4E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E6AB45239690B300FCD4E1 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		7700416B23A8762200A02059 /* gif copy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "gif copy.gif"; sourceTree = "<group>"; };
 		7700416E23A87E6900A02059 /* ThumPreess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumPreess.swift; sourceTree = "<group>"; };
+		7700417123A990AA00A02059 /* HeartAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartAnimation.swift; sourceTree = "<group>"; };
+		7700417423A9989100A02059 /* logInOutAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logInOutAnimation.swift; sourceTree = "<group>"; };
 		77E6AB3C239690B300FCD4E1 /* makeDate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = makeDate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77E6AB3F239690B300FCD4E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77E6AB41239690B300FCD4E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,22 @@
 			path = thumPressCustomeClass;
 			sourceTree = "<group>";
 		};
+		7700417023A9906300A02059 /* HeartAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7700417123A990AA00A02059 /* HeartAnimation.swift */,
+			);
+			path = HeartAnimation;
+			sourceTree = "<group>";
+		};
+		7700417323A9983D00A02059 /* LoginOutbuttonsAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7700417423A9989100A02059 /* logInOutAnimation.swift */,
+			);
+			path = LoginOutbuttonsAnimation;
+			sourceTree = "<group>";
+		};
 		770373C72398B8FF003919A1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				77E6AB45239690B300FCD4E1 /* Main.storyboard */,
+				7700417323A9983D00A02059 /* LoginOutbuttonsAnimation */,
+				7700417023A9906300A02059 /* HeartAnimation */,
 				7700416D23A87D7300A02059 /* thumPressCustomeClass */,
 			);
 			path = Views;
@@ -180,7 +202,9 @@
 				77E6AB40239690B300FCD4E1 /* AppDelegate.swift in Sources */,
 				77E6AB42239690B300FCD4E1 /* SceneDelegate.swift in Sources */,
 				77E6AB6523975FBD00FCD4E1 /* ViewController.swift in Sources */,
+				7700417223A990AA00A02059 /* HeartAnimation.swift in Sources */,
 				7700416F23A87E6900A02059 /* ThumPreess.swift in Sources */,
+				7700417523A9989100A02059 /* logInOutAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
