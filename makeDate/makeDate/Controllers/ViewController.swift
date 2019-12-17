@@ -57,6 +57,14 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func register(_ sender: UIButton) {
+        
+        // 1. ask user to access keychain
+        
+        // 2. take faceid and send to database
+    }
+    
+    
     
     
     
