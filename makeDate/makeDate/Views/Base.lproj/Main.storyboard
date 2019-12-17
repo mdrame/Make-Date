@@ -20,14 +20,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgp-LA-Lb6">
-                                <rect key="frame" x="144" y="638" width="86" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="print"/>
-                                <connections>
-                                    <action selector="thumpPress:" destination="uv5-8a-AHI" eventType="touchUpInside" id="Bfd-6i-cJA"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2F-zm-29h" userLabel="logIn">
                                 <rect key="frame" x="68" y="513" width="97" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -44,6 +36,14 @@
                                     <action selector="register:" destination="uv5-8a-AHI" eventType="touchUpInside" id="yVv-yf-HBB"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgp-LA-Lb6">
+                                <rect key="frame" x="144" y="638" width="86" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="print"/>
+                                <connections>
+                                    <action selector="thumpPress:" destination="uv5-8a-AHI" eventType="touchUpInside" id="Y94-B4-xQ6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="VMw-E0-UKf"/>
@@ -52,6 +52,7 @@
                         <outlet property="loginButtonOutlet" destination="n2F-zm-29h" id="AOv-YB-uXP"/>
                         <outlet property="logoImageView" destination="4YT-Ka-n0g" id="CwM-Q0-kjg"/>
                         <outlet property="registerButtonOutlet" destination="gjJ-QL-1Xa" id="5Cb-Ca-lCL"/>
+                        <outlet property="thumButtonOutlet" destination="Rgp-LA-Lb6" id="bBw-L7-ny5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a25-ON-aIe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

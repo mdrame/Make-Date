@@ -10,11 +10,36 @@ import UIKit
 
 class ViewController: UIViewController {
     
-
-              
+  // ---------------------------------------------//
+ // - - - - - - - - - Instances - - - - - - - - -//
+// ---------------------------------------------//
+    // thumb is off when view loads
+    var buttonPress: Bool = false
     
+    
+    
+    
+    
+  // ---------------------------------------------//
+ // - - - - - - - - - Instances - - - - - - - - -//
+// ---------------------------------------------//
+    let thumbPress = ThumPresse()
+    
+    
+    
+    
+    
+    
+
+  // ---------------------------------------------//
+ // - - - - - - - - - ViewDidLoad - - - - - - - -//
+// ---------------------------------------------//
     override func viewDidLoad() {
         super.viewDidLoad()
+        // Save initial value before hiding outlets under thum button
+        thumbPress.setInitValues(login: loginButtonOutlet, register: registerButtonOutlet, thumb: thumButtonOutlet)
+        
+          
         
     }
     
@@ -23,10 +48,12 @@ class ViewController: UIViewController {
   // ---------------------------------------------//
  // - - - - - - - - - IBOutlets - - - - - - - - -//
 // ---------------------------------------------//
-    
     @IBOutlet weak var logoImageView: UIImageView!
     @IBOutlet weak var loginButtonOutlet: UIButton!
     @IBOutlet weak var registerButtonOutlet: UIButton!
+    @IBOutlet weak var thumButtonOutlet: UIButton!
+    
+    
     
     
     
@@ -36,11 +63,20 @@ class ViewController: UIViewController {
   // ---------------------------------------------//
  // - - - - - - - - - IBActions - - - - - - - - -//
 // ---------------------------------------------//
-    
     @IBAction func thumpPress(_ sender: UIButton) {
-        // 1. Pop login and logout button from under thumpress
+     // 1. Toggle button stage bool ( on first click button is on )
+        buttonPress.toggle()
         
-        //2. change thumPress Image ( Darker )
+        switch buttonPress {
+        case true:
+            thumbPress.unSetLoginRegisterUnderThumbButton(firstView: loginButtonOutlet, secondView: registerButtonOutlet, centerValue: thumButtonOutlet)
+            print("Button Pressed")
+        default:
+            thumbPress.setLoginRegisterUnderThumbButton(firstView: loginButtonOutlet, secondView:registerButtonOutlet, centerValue: thumButtonOutlet)
+            print("Button UnPressed")
+        }
+      
+        
         
     }
     
