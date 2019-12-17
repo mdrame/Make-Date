@@ -36,7 +36,7 @@ class ViewController: UIViewController {
 // ---------------------------------------------//
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Save initial value before hiding outlets under thum button
+        // Save initial value before hiding outlets under thumb button
         thumbPress.setInitValues(login: loginButtonOutlet, register: registerButtonOutlet, thumb: thumButtonOutlet)
         
           

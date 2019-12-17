@@ -41,7 +41,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="print"/>
                                 <connections>
-                                    <action selector="thumpPress:" destination="uv5-8a-AHI" eventType="touchUpInside" id="Y94-B4-xQ6"/>
+                                    <action selector="thumpPress:" destination="uv5-8a-AHI" eventType="touchDown" id="kwA-yC-ghd"/>
                                 </connections>
                             </button>
                         </subviews>

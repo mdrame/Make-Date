@@ -22,9 +22,9 @@ class ThumPresse {
     
     
     
-  // -----------------------------------------------------//
- //  Saving outlet initital values before changing them  //
-// -----------------------------------------------------//
+  // -----------------------------------------------------------------------//
+ //  Saving outlet initital values before changing their .center property  //
+// -----------------------------------------------------------------------//
     var logInInitValue : CGPoint!
     var registerInitValue : CGPoint!
     var thumbInitValue : CGPoint!
@@ -70,8 +70,9 @@ class ThumPresse {
     
     func hidLogInOutOutletWhenTheyAreHidding(firstView loginOullet: UIButton, secondView registerOutlet: UIButton, centerValue thumButtonCenter: UIButton) {
         // Hide login and out outlet when they are under the thumb
-        loginOullet.isHidden = false
-        registerOutlet.isHidden = false
+    
+        loginOullet.layer.opacity = 0
+        registerOutlet.layer.opacity = 0
         thumButtonCenter.isHidden = false
     }
     
@@ -99,8 +100,8 @@ class ThumPresse {
     
     func unHidLogInOutOutletWhenTheyAreHidding(firstView loginOullet: UIButton, secondView registerOutlet: UIButton, centerValue thumButtonCenter: UIButton) {
         // Hide login and out outlet when they are under the thumb
-        loginOullet.isHidden = false
-        registerOutlet.isHidden = false
+        loginOullet.layer.opacity = 0.9
+        registerOutlet.layer.opacity = 0.9
         thumButtonCenter.isHidden = false
     }
     
