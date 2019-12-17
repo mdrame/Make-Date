@@ -55,25 +55,26 @@ class ThumPresse {
      func setLoginRegisterUnderThumbButton(firstView loginOullet: UIButton, secondView registerOutlet: UIButton, centerValue thumButtonCenter: UIButton) {
         
         // 1. add the login and out buuton right under the thums when this funtion is called
-        UIView.animate(withDuration: 0.5) {
+        UIView.animate(withDuration: 0.9) {
+            
         loginOullet.center = thumButtonCenter.center
         registerOutlet.center = thumButtonCenter.center
         
         // 2. Hide outlet when under thumb
             self.hidLogInOutOutletWhenTheyAreHidding(firstView: loginOullet, secondView: registerOutlet, centerValue: thumButtonCenter)
+           
         
         // 3. change button backgground to a darker image
-            
+           
         } // animation end here
     }
     
     
     func hidLogInOutOutletWhenTheyAreHidding(firstView loginOullet: UIButton, secondView registerOutlet: UIButton, centerValue thumButtonCenter: UIButton) {
         // Hide login and out outlet when they are under the thumb
-    
-        loginOullet.layer.opacity = 0
-        registerOutlet.layer.opacity = 0
-        thumButtonCenter.isHidden = false
+    loginOullet.layer.opacity = 0.0
+    registerOutlet.layer.opacity = 0.0
+      
     }
     
     
@@ -85,7 +86,7 @@ class ThumPresse {
     
     func unSetLoginRegisterUnderThumbButton(firstView loginOutLet: UIButton, secondView registerOutlet: UIButton, centerValue thumButtonCenter: UIButton) {
         
-     UIView.animate(withDuration: 0.2) {
+        UIView.animate(withDuration: 0.9) {
         //1. assing buttons their initials values
         loginOutLet.center = self.logInInitValue!
         registerOutlet.center = self.registerInitValue!
@@ -102,7 +103,6 @@ class ThumPresse {
         // Hide login and out outlet when they are under the thumb
         loginOullet.layer.opacity = 0.9
         registerOutlet.layer.opacity = 0.9
-        thumButtonCenter.isHidden = false
     }
     
     

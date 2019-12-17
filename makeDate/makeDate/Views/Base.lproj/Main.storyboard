@@ -15,33 +15,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4YT-Ka-n0g">
-                                <rect key="frame" x="16" y="44" width="343" height="312"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="like" translatesAutoresizingMaskIntoConstraints="NO" id="4YT-Ka-n0g">
+                                <rect key="frame" x="17" y="44" width="343" height="312"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2F-zm-29h" userLabel="logIn">
-                                <rect key="frame" x="68" y="513" width="97" height="81"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="login:" destination="uv5-8a-AHI" eventType="touchUpInside" id="PWP-CH-Kk2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjJ-QL-1Xa" userLabel="logIn">
-                                <rect key="frame" x="210" y="513" width="97" height="81"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <connections>
-                                    <action selector="register:" destination="uv5-8a-AHI" eventType="touchUpInside" id="yVv-yf-HBB"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgp-LA-Lb6">
                                 <rect key="frame" x="144" y="638" width="86" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="print"/>
                                 <connections>
                                     <action selector="thumpPress:" destination="uv5-8a-AHI" eventType="touchDown" id="kwA-yC-ghd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2F-zm-29h" userLabel="logIn">
+                                <rect key="frame" x="88" y="548" width="61" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="11"/>
+                                <state key="normal" title="LOGIN" backgroundImage="pngkey.com-light-circle-png-1636540">
+                                    <color key="titleColor" red="0.44340395927429199" green="0.91046947240829468" blue="0.93109112977981567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="login:" destination="uv5-8a-AHI" eventType="touchUpInside" id="PWP-CH-Kk2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVZ-83-0c2" userLabel="logIn">
+                                <rect key="frame" x="226" y="548" width="61" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="10"/>
+                                <state key="normal" title="SIGNUP" backgroundImage="pngkey.com-pink-circle-png-9559918">
+                                    <color key="titleColor" red="0.85715728998184204" green="0.39271295070648193" blue="0.82866746187210083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="register:" destination="uv5-8a-AHI" eventType="touchUpInside" id="hSh-ga-z73"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -51,7 +59,7 @@
                     <connections>
                         <outlet property="loginButtonOutlet" destination="n2F-zm-29h" id="AOv-YB-uXP"/>
                         <outlet property="logoImageView" destination="4YT-Ka-n0g" id="CwM-Q0-kjg"/>
-                        <outlet property="registerButtonOutlet" destination="gjJ-QL-1Xa" id="5Cb-Ca-lCL"/>
+                        <outlet property="registerButtonOutlet" destination="dVZ-83-0c2" id="92D-I3-JUv"/>
                         <outlet property="thumButtonOutlet" destination="Rgp-LA-Lb6" id="bBw-L7-ny5"/>
                     </connections>
                 </viewController>
@@ -61,6 +69,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="like" width="512" height="512"/>
+        <image name="pngkey.com-light-circle-png-1636540" width="560" height="538"/>
+        <image name="pngkey.com-pink-circle-png-9559918" width="1007" height="1020"/>
         <image name="print" width="732" height="863"/>
     </resources>
 </document>

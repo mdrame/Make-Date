@@ -38,10 +38,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Save initial value before hiding outlets under thumb button
         thumbPress.setInitValues(login: loginButtonOutlet, register: registerButtonOutlet, thumb: thumButtonOutlet)
-        
-          
-        
+  
     }
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+       
+    }
+    
+ 
     
     
     
@@ -53,6 +58,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var registerButtonOutlet: UIButton!
     @IBOutlet weak var thumButtonOutlet: UIButton!
     
+
     
     
     
@@ -68,12 +74,17 @@ class ViewController: UIViewController {
         buttonPress.toggle()
         
         switch buttonPress {
-        case true:
+        case true: // if button is on do this unhide the log in and log out button
             thumbPress.unSetLoginRegisterUnderThumbButton(firstView: loginButtonOutlet, secondView: registerButtonOutlet, centerValue: thumButtonOutlet)
+                // unhided when button are visible
+          
             print("Button Pressed")
-        default:
+        default: // vice versas
             thumbPress.setLoginRegisterUnderThumbButton(firstView: loginButtonOutlet, secondView:registerButtonOutlet, centerValue: thumButtonOutlet)
+            // hide when buttons are not visible
+
             print("Button UnPressed")
+            
         }
       
         
