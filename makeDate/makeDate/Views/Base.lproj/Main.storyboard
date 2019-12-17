@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uv5-8a-AHI">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,172 +12,48 @@
             <objects>
                 <viewController id="uv5-8a-AHI" customClass="ViewController" customModule="makeDate" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="f8F-8r-SIO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jNV-oP-9Xn" userLabel="baseUIView" customClass="CustomUIView" customModule="makeDate" customModuleProvider="target">
-                                <rect key="frame" x="20" y="55" width="374" height="807"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bKz-9p-INf" userLabel="secondBaseUIView" customClass="CustomUIView" customModule="makeDate" customModuleProvider="target">
-                                        <rect key="frame" x="8" y="8" width="358" height="791"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wdT-Hn-U9P" customClass="LoginPageTextFields" customModule="makeDate" customModuleProvider="target">
-                                                <rect key="frame" x="38" y="254" width="285" height="45"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="19"/>
-                                                <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
-                                            </textField>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgp-LA-Lb6">
-                                                <rect key="frame" x="137" y="555" width="86" height="92"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="print"/>
-                                                <connections>
-                                                    <action selector="logInpress:" destination="uv5-8a-AHI" eventType="touchUpInside" id="q3B-rI-hBz"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TAP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaJ-Cv-Sf1">
-                                                <rect key="frame" x="165" y="451" width="28" height="17"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="14"/>
-                                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XP6-wN-C2I">
-                                                <rect key="frame" x="48" y="36" width="263" height="35"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="16"/>
-                                                <state key="normal" title="Don't have an account? Register">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="register:" destination="uv5-8a-AHI" eventType="touchUpInside" id="PM4-k7-rOR"/>
-                                                </connections>
-                                            </button>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WKw-8N-Rpx" customClass="LoginPageTextFields" customModule="makeDate" customModuleProvider="target">
-                                                <rect key="frame" x="38" y="160" width="285" height="45"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="19"/>
-                                                <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
-                                            </textField>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4YT-Ka-n0g">
+                                <rect key="frame" x="16" y="44" width="343" height="312"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgp-LA-Lb6">
+                                <rect key="frame" x="144" y="638" width="86" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="print"/>
+                                <connections>
+                                    <action selector="thumpPress:" destination="uv5-8a-AHI" eventType="touchUpInside" id="Bfd-6i-cJA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2F-zm-29h" userLabel="logIn">
+                                <rect key="frame" x="68" y="513" width="97" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="login:" destination="uv5-8a-AHI" eventType="touchUpInside" id="PWP-CH-Kk2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjJ-QL-1Xa" userLabel="logIn">
+                                <rect key="frame" x="210" y="513" width="97" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="jNV-oP-9Xn" firstAttribute="centerX" secondItem="f8F-8r-SIO" secondAttribute="centerX" id="EJ4-gM-Jky"/>
-                            <constraint firstItem="jNV-oP-9Xn" firstAttribute="leading" secondItem="VMw-E0-UKf" secondAttribute="leading" constant="20" id="ZC9-ft-ib2"/>
-                            <constraint firstItem="jNV-oP-9Xn" firstAttribute="centerY" secondItem="f8F-8r-SIO" secondAttribute="centerY" constant="10.5" id="eTK-pR-Lfz"/>
-                            <constraint firstItem="jNV-oP-9Xn" firstAttribute="top" secondItem="f8F-8r-SIO" secondAttribute="topMargin" constant="11" id="sdG-7C-36T"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="VMw-E0-UKf"/>
                     </view>
                     <connections>
-                        <outlet property="baseUIVieew" destination="jNV-oP-9Xn" id="vDw-K6-qiW"/>
-                        <outlet property="fingerPrintOutlet" destination="Rgp-LA-Lb6" id="i29-sZ-rx1"/>
-                        <outlet property="logInLableOutlet" destination="oaJ-Cv-Sf1" id="03d-vm-6v0"/>
-                        <outlet property="passWordLogIn" destination="wdT-Hn-U9P" id="XkH-36-kR5"/>
-                        <outlet property="registerButtonOutlet" destination="XP6-wN-C2I" id="Eef-7f-uOw"/>
-                        <outlet property="secondBaseUIView" destination="bKz-9p-INf" id="Haa-Ow-1RX"/>
-                        <outlet property="userNameLogIn" destination="WKw-8N-Rpx" id="m6s-zg-ddg"/>
-                        <segue destination="Jq3-DM-egg" kind="showDetail" identifier="toRegister" id="95a-Zl-Ngc"/>
+                        <outlet property="loginButtonOutlet" destination="n2F-zm-29h" id="AOv-YB-uXP"/>
+                        <outlet property="logoImageView" destination="4YT-Ka-n0g" id="CwM-Q0-kjg"/>
+                        <outlet property="registerButtonOutlet" destination="gjJ-QL-1Xa" id="5Cb-Ca-lCL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a25-ON-aIe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8.6956521739130448" y="12.723214285714285"/>
-        </scene>
-        <!--Register View Controller-->
-        <scene sceneID="gYj-Zh-xYe">
-            <objects>
-                <viewController id="Jq3-DM-egg" customClass="registerViewController" customModule="makeDate" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ot3-8h-7oy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nY1-wN-KOx" userLabel="baseUIView" customClass="CustomUIView" customModule="makeDate" customModuleProvider="target">
-                                <rect key="frame" x="20" y="25" width="374" height="792"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QfS-Os-WyM" userLabel="secondBaseUIView" customClass="CustomUIView" customModule="makeDate" customModuleProvider="target">
-                                        <rect key="frame" x="8" y="9" width="358" height="772"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U3B-gD-7Mr" customClass="LoginPageTextFields" customModule="makeDate" customModuleProvider="target">
-                                                <rect key="frame" x="37" y="127" width="285" height="45"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="19"/>
-                                                <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
-                                            </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0DX-Qp-72U" customClass="LoginPageTextFields" customModule="makeDate" customModuleProvider="target">
-                                                <rect key="frame" x="37" y="214" width="285" height="45"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="19"/>
-                                                <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
-                                            </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TAP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5u-Za-U9w">
-                                                <rect key="frame" x="165" y="414" width="28" height="17"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="14"/>
-                                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8no-26-NDR">
-                                                <rect key="frame" x="72" y="36" width="214" height="32"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" red="0.1318426728" green="0.14392179250000001" blue="0.15860596299999999" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="16"/>
-                                                <state key="normal" title="Have an account? LogIn">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="login:" destination="Jq3-DM-egg" eventType="touchUpInside" id="uFk-N1-Iwk"/>
-                                                    <action selector="register:" destination="uv5-8a-AHI" eventType="touchUpInside" id="xwe-bK-Zez"/>
-                                                    <segue destination="Diw-of-BSR" kind="unwind" unwindAction="unwindToVC1WithSegue:" id="bhz-mf-nbJ"/>
-                                                </connections>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UI1-fY-ZZv">
-                                                <rect key="frame" x="136" y="450" width="86" height="92"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="print"/>
-                                                <connections>
-                                                    <action selector="Registerpress:" destination="Jq3-DM-egg" eventType="touchUpInside" id="3lX-A0-nvO"/>
-                                                    <action selector="logInpress:" destination="uv5-8a-AHI" eventType="touchUpInside" id="7Rg-12-EXG"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <viewLayoutGuide key="safeArea" id="7AX-sj-agE"/>
-                    </view>
-                    <connections>
-                        <outlet property="baseUIVieew" destination="nY1-wN-KOx" id="YZQ-5p-NlH"/>
-                        <outlet property="fingerPrintOutlet" destination="UI1-fY-ZZv" id="23h-Fg-LaJ"/>
-                        <outlet property="logInButtonOutlet" destination="8no-26-NDR" id="vuD-eq-2HI"/>
-                        <outlet property="logInLableOutlet" destination="V5u-Za-U9w" id="W35-LK-qZj"/>
-                        <outlet property="passWordRegister" destination="0DX-Qp-72U" id="bbP-NZ-asd"/>
-                        <outlet property="secondBaseUIView" destination="QfS-Os-WyM" id="MZR-MT-L8C"/>
-                        <outlet property="userNameRegister" destination="U3B-gD-7Mr" id="YV4-pm-M8q"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K1y-XX-LkY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="Diw-of-BSR" userLabel="Exit" sceneMemberID="exit"/>
-            </objects>
-            <point key="canvasLocation" x="8.6956521739130448" y="762.72321428571422"/>
+            <point key="canvasLocation" x="5.5999999999999996" y="11.822660098522167"/>
         </scene>
     </scenes>
     <resources>
