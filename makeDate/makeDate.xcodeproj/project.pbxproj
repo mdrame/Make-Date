@@ -30,7 +30,7 @@
 		77E6AB46239690B300FCD4E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77E6AB48239690B400FCD4E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77E6AB4B239690B400FCD4E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77E6AB4D239690B400FCD4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77E6AB4D239690B400FCD4E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = makeDate/Info.plist; sourceTree = SOURCE_ROOT; };
 		77E6AB6423975FBD00FCD4E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +115,7 @@
 		77E6AB3E239690B300FCD4E1 /* makeDate */ = {
 			isa = PBXGroup;
 			children = (
+				77E6AB4D239690B400FCD4E1 /* Info.plist */,
 				77E6AB3F239690B300FCD4E1 /* AppDelegate.swift */,
 				77E6AB41239690B300FCD4E1 /* SceneDelegate.swift */,
 				770373C72398B8FF003919A1 /* Models */,
@@ -122,7 +123,6 @@
 				770373CA2398B93E003919A1 /* Controllers */,
 				77E6AB48239690B400FCD4E1 /* Assets.xcassets */,
 				77E6AB4A239690B400FCD4E1 /* LaunchScreen.storyboard */,
-				77E6AB4D239690B400FCD4E1 /* Info.plist */,
 			);
 			path = makeDate;
 			sourceTree = "<group>";
