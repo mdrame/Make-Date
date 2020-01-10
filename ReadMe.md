@@ -32,6 +32,13 @@
 * C R U D : ( FireBase Storage for images & FireBase Data Base for User profile)
 * Auth : Firebase Auth
 
+### Features
+
+* Sign in Out users 
+* Save signUp user profile to fireBase realtime database 
+* Render Match excluding current user from firebase realtime database 
+* Count down for re-match
+
 ### Build Technique:
 
 * StoryBoard
