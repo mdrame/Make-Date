@@ -23,13 +23,6 @@
 
 <img   src="1.jpeg" width="260" height="550" align="center">
 
-<img   src="2.jpeg" width="260" height="550" align="center" >
-
-<img   src="ui/3.jpeg" width="260" height="550" align="left">
-
-
-
-
 ### Technology :
 
 * Swift 
