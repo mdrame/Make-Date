@@ -21,7 +21,7 @@
 
 ### UI/UX
 
-<img src="1.jpeg"  width="400" align="center">
+<img   src="1.jpeg"  align="center">
 
 ### Technology :
 
