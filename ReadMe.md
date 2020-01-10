@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <img src="UI/UX.logo.png" alt="MakeDate" width="200">
+  <img src="logo.png" alt="MakeDate" width="200">
   <br>
   MAKE DATE ♥️
   <br>
