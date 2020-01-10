@@ -32,10 +32,16 @@
 * C R U D : ( FireBase Storage for images & FireBase Data Base for User profile)
 * Auth : Firebase Auth
 
+### Build Technique:
+
+* StoryBoard
+
 
 ### Todo: 
 
 * Refactor code base and write more reusable classes.
+
+
 
 
 
