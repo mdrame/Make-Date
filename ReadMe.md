@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <img src="logo.png" alt="MakeDate" width="200">
+  <img src="logo.png" alt="MakeDate" width="100">
   <br>
   MAKE  DATE 
   <br>
